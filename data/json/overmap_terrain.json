@@ -8086,7 +8086,7 @@
     "type": "overmap_terrain",
     "id": "lumberyard_1_0",
     "name": "lumberyard",
-    "copy-from": "generic_city_building_no_sidewalk",
+    "copy-from": "generic_city_building",
     "sym": 76,
     "color": "i_green"
   },
@@ -8097,6 +8097,14 @@
     "copy-from": "generic_city_building_no_sidewalk",
     "sym": 76,
     "color": "i_green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "lumberyard_forest",
+    "name": "forest",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "sym": 76,
+    "color": "green"
   },
   {
     "type": "overmap_terrain",
