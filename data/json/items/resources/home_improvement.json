@@ -189,5 +189,35 @@
     "weight": "25 g",
     "volume": "1000 ml",
     "to_hit": -3
+  },
+  {
+    "type": "GENERIC",
+    "id": "fake_grass",
+    "category": "other",
+    "symbol": "o",
+    "color": "green",
+    "name": { "str": "roll of artificial grass", "str_pl": "rolls of artificial grass" },
+    "description": "A roll of artificial grass intended to be installed over dirt.",
+    "price": 5000,
+    "price_postapoc": 0,
+    "material": [ "plastic" ],
+    "longest_side": "100 cm",
+    "volume": "6350 ml",
+    "weight": "2500 g"
+  },
+  {
+    "type": "GENERIC",
+    "id": "fake_grass_white",
+    "category": "other",
+    "symbol": "o",
+    "color": "white",
+    "name": { "str": "roll of white artificial grass", "str_pl": "rolls of white artificial grass" },
+    "description": "A roll of artificial grass covered in white paint.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "plastic" ],
+    "longest_side": "100 cm",
+    "volume": "6350 ml",
+    "weight": "2500 g"
   }
 ]
