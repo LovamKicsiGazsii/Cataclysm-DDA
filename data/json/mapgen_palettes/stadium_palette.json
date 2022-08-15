@@ -35,10 +35,10 @@
       }
     },
     "terrain": {
-      "g": "t_grass_white",
+      "g": "t_grass_fake_white",
       "…": "t_region_groundcover_urban",
-      " ": "t_grass",
-      ",": "t_dirt",
+      " ": "t_grass_fake",
+      ",": "t_region_soil",
       ";": "t_sand",
       ".": "t_thconc_floor",
       ":": "t_thconc_y",
