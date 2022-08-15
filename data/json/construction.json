@@ -2782,6 +2782,18 @@
   },
   {
     "type": "construction",
+    "id": "constr_grass_white_fake",
+    "group": "paint_grass_white",
+    "category": "DECORATE",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "4 m",
+    "tools": [ [ "paint_brush" ] ],
+    "components": [ [ [ "w_paint", 25 ] ] ],
+    "pre_terrain": "t_grass_fake",
+    "post_terrain": "t_grass_fake_white"
+  },
+  {
+    "type": "construction",
     "id": "constr_pavement_y",
     "group": "paint_pavement_yellow",
     "category": "DECORATE",
@@ -2991,6 +3003,30 @@
     "components": [ [ [ "nail", 5 ] ], [ [ "g_carpet", 1 ] ] ],
     "pre_terrain": "t_floor",
     "post_terrain": "t_carpet_green"
+  },
+  {
+    "type": "construction",
+    "id": "constr_grass_fake",
+    "group": "grass_fake",
+    "category": "DECORATE",
+    "required_skills": [ [ "fabrication", 1 ] ],
+    "time": "12 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "DIG", "level": 1 } ] ],
+    "components": [ [ [ "nail", 4 ] ], [ [ "fake_grass", 1 ] ] ],
+    "pre_terrain": "t_dirt",
+    "post_terrain": "t_grass_fake"
+  },
+  {
+    "type": "construction",
+    "id": "constr_grass_fake_white",
+    "group": "grass_fake_white",
+    "category": "DECORATE",
+    "required_skills": [ [ "fabrication", 1 ] ],
+    "time": "12 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "DIG", "level": 1 } ] ],
+    "components": [ [ [ "nail", 4 ] ], [ [ "fake_grass_white", 1 ] ] ],
+    "pre_terrain": "t_dirt",
+    "post_terrain": "t_grass_fake_white"
   },
   {
     "type": "construction",
