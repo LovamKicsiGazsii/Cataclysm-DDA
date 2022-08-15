@@ -2302,6 +2302,32 @@
   },
   {
     "type": "terrain",
+    "id": "t_grass_fake",
+    "name": "artificial grass",
+    "description": "A carpet of synthetic fibers made to resemble natural grass.",
+    "symbol": ".",
+    "color": "green",
+    "looks_like": "t_grass",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "fake_grass", "count": 1 }, { "item": "nail", "charges": 4 } ], "ter_set": "t_dirt" },
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
+    "id": "t_grass_fake_white",
+    "name": "white artificial grass",
+    "description": "A carpet of synthetic fibers made to resemble natural grass.  Covered in white latex-based paint, it is used to mark lines for recreational sports.",
+    "symbol": ".",
+    "color": "white",
+    "looks_like": "t_grass_white",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "fake_grass_white", "count": 1 }, { "item": "nail", "charges": 4 } ], "ter_set": "t_dirt" },
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
     "id": "t_grass_long",
     "name": "long grass",
     "description": "Long shaggy grass about shin high.",
