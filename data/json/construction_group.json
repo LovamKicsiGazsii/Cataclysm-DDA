@@ -1638,5 +1638,15 @@
     "type": "construction_group",
     "id": "build_chain_hoist",
     "name": "Build Chain & Tackle Hoist"
+  },
+  {
+    "type": "construction_group",
+    "id": "grass_fake",
+    "name": "Lay Artificial Grass"
+  },
+  {
+    "type": "construction_group",
+    "id": "grass_fake_white",
+    "name": "Lay White Artificial Grass"
   }
 ]
