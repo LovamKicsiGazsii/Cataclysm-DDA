@@ -65,5 +65,52 @@
     "type": "overmap_terrain",
     "id": [ "trailerparksmall0_roof", "trailerparksmall1_roof", "trailerparksmall2_roof" ],
     "copy-from": "generic_city_trailerpark_roof"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "tower_lab",
+    "name": "science lab tower",
+    "sym": "L",
+    "color": "light_blue",
+    "see_cost": 5,
+    "spawns": { "group": "GROUP_LAB", "population": [ 0, 5 ], "chance": 20 },
+    "flags": [ "NO_ROTATE", "RISK_HIGH", "SHOULD_NOT_SPAWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "tower_lab_stairs",
+    "name": "science lab tower",
+    "sym": "L",
+    "color": "blue",
+    "see_cost": 5,
+    "spawns": { "group": "GROUP_LAB", "population": [ 0, 5 ], "chance": 20 },
+    "flags": [ "NO_ROTATE", "SHOULD_NOT_SPAWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "tower_lab_finale",
+    "name": "science lab tower",
+    "sym": "L",
+    "color": "cyan",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE", "SHOULD_NOT_SPAWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "office_tower_open_air_corner",
+    "name": "open air",
+    "sym": ".",
+    "color": "blue",
+    "flags": [ "SHOULD_NOT_SPAWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "office_tower_2_a1_tower_lab" ],
+    "name": "office tower",
+    "sym": "t",
+    "color": "i_light_gray",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
   }
 ]
